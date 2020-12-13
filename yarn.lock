@@ -1664,6 +1664,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@url-shortener/api@workspace:packages/api":
+  version: 0.0.0-use.local
+  resolution: "@url-shortener/api@workspace:packages/api"
+  dependencies:
+    "@cloudflare/workers-types": ^2.1.0
+    concurrently: ^5.3.0
+    nodemon: ^2.0.6
+    rfc4648: ^1.4.0
+  languageName: unknown
+  linkType: soft
+
+"@url-shortener/service@workspace:packages/service":
+  version: 0.0.0-use.local
+  resolution: "@url-shortener/service@workspace:packages/service"
+  dependencies:
+    "@cloudflare/workers-types": ^2.1.0
+    concurrently: ^5.3.0
+    nodemon: ^2.0.6
+    rfc4648: ^1.4.0
+  languageName: unknown
+  linkType: soft
+
 "@webassemblyjs/ast@npm:1.9.0":
   version: 1.9.0
   resolution: "@webassemblyjs/ast@npm:1.9.0"
@@ -1845,17 +1867,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xmts/api@workspace:packages/api":
-  version: 0.0.0-use.local
-  resolution: "@xmts/api@workspace:packages/api"
-  dependencies:
-    "@cloudflare/workers-types": ^2.1.0
-    concurrently: ^5.3.0
-    nodemon: ^2.0.6
-    rfc4648: ^1.4.0
-  languageName: unknown
-  linkType: soft
-
 "@xmts/dashboard@workspace:packages/dashboard":
   version: 0.0.0-use.local
   resolution: "@xmts/dashboard@workspace:packages/dashboard"
@@ -1887,17 +1898,6 @@ __metadata:
   resolution: "@xmts/scripts@workspace:packages/scripts"
   dependencies:
     esbuild: ^0.8.21
-  languageName: unknown
-  linkType: soft
-
-"@xmts/service@workspace:packages/service":
-  version: 0.0.0-use.local
-  resolution: "@xmts/service@workspace:packages/service"
-  dependencies:
-    "@cloudflare/workers-types": ^2.1.0
-    concurrently: ^5.3.0
-    nodemon: ^2.0.6
-    rfc4648: ^1.4.0
   languageName: unknown
   linkType: soft
 
@@ -10522,6 +10522,27 @@ typescript@^4.1.2:
   languageName: node
   linkType: hard
 
+"url-shortener@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "url-shortener@workspace:."
+  dependencies:
+    "@babel/core": ^7.12.10
+    "@babel/node": ^7.12.10
+    "@babel/preset-env": ^7.12.10
+    "@babel/preset-typescript": ^7.12.7
+    "@types/node": ^14.14.12
+    "@typescript-eslint/eslint-plugin": ^4.9.1
+    "@typescript-eslint/parser": ^4.9.1
+    eslint: ^7.15.0
+    eslint-config-prettier: ^7.0.0
+    eslint-import-resolver-typescript: ^2.3.0
+    eslint-plugin-import: ^2.22.1
+    eslint-plugin-prettier: ^3.2.0
+    prettier: ^2.2.1
+    typescript: ^4.1.2
+  languageName: unknown
+  linkType: soft
+
 "url@npm:^0.11.0":
   version: 0.11.0
   resolution: "url@npm:0.11.0"
@@ -10851,27 +10872,6 @@ typescript@^4.1.2:
   checksum: a26a8699c30cdc81d041b2c1049c6773f1e8401edda365874e9ca2dcf1fcf024dfeb43eea5e08c2e9b4e77be08a160d37f8d6c5d8c2d3ceccdf3d06e5cb38d35
   languageName: node
   linkType: hard
-
-"x-marks-the-spot@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "x-marks-the-spot@workspace:."
-  dependencies:
-    "@babel/core": ^7.12.10
-    "@babel/node": ^7.12.10
-    "@babel/preset-env": ^7.12.10
-    "@babel/preset-typescript": ^7.12.7
-    "@types/node": ^14.14.12
-    "@typescript-eslint/eslint-plugin": ^4.9.1
-    "@typescript-eslint/parser": ^4.9.1
-    eslint: ^7.15.0
-    eslint-config-prettier: ^7.0.0
-    eslint-import-resolver-typescript: ^2.3.0
-    eslint-plugin-import: ^2.22.1
-    eslint-plugin-prettier: ^3.2.0
-    prettier: ^2.2.1
-    typescript: ^4.1.2
-  languageName: unknown
-  linkType: soft
 
 "xdg-basedir@npm:^4.0.0":
   version: 4.0.0
