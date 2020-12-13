@@ -1,0 +1,6 @@
+{
+	"ignore": ["node_modules", "__test__"],
+	"watch": ["src", "yarn.lock"],
+	"exec": "yarn build:dev",
+	"ext": "ts"
+}

@@ -1,0 +1,26 @@
+{
+	"name": "@url-shortener/api",
+	"version": "0.1.0",
+	"description": "cloudflare worker",
+	"main": "./dist/main.js",
+	"scripts": {
+		"dev": "node ./scripts/dev.js",
+		"dev:js": "nodemon",
+		"build:js": "node ./scripts/build.js",
+		"build:dev": "yarn build:js",
+		"build:prod": "yarn build:js --prod",
+		"wrgl": "wrangler",
+		"wrgl:dev": "wrangler dev",
+		"pub": "yarn build:prod && wrangler publish"
+	},
+	"author": "Jan Schmidt <me@jnschmdt.de>",
+	"license": "MIT",
+	"devDependencies": {
+		"@cloudflare/workers-types": "^2.1.0",
+		"concurrently": "^5.3.0",
+		"nodemon": "^2.0.6"
+	},
+	"dependencies": {
+		"rfc4648": "^1.4.0"
+	}
+}
