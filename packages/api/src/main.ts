@@ -41,7 +41,7 @@ function SuccessResponse(shortPath: string, redirectURL: string): Response {
 	return JsonResponse({
 		success: true,
 		shortPath,
-		url: `https://xnth.link/${shortPath}`,
+		url: `https://3o8.it/${shortPath}`,
 		redirectURL
 	});
 }
